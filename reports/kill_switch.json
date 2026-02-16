@@ -1,0 +1,19 @@
+{
+  "enabled": false,
+  "ts_ms": 1771231782115,
+  "trigger": "reconcile_hard_fail",
+  "reason": "base_mismatch",
+  "consecutive_hard": 3,
+  "consecutive_soft": 0,
+  "last_reconcile_ts_ms": 1771231782111,
+  "details": {
+    "max_abs_usdt_delta": 34.95270203824823,
+    "max_abs_base_delta": 0.007600063000000001,
+    "reconcile_status_path": "reports/reconcile_status.json",
+    "okx_code": "0",
+    "okx_msg": "",
+    "http_status": 200,
+    "consecutive_stale": 0,
+    "stale_age_ms": 4
+  }
+}

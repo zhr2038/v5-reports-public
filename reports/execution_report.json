@@ -1,0 +1,23 @@
+{
+  "timestamp": "2026-02-16T09:00:05.186885Z",
+  "dry_run": true,
+  "orders": [
+    {
+      "symbol": "SOL/USDT",
+      "side": "buy",
+      "intent": "REBALANCE",
+      "notional_usdt": 28.210702109130956,
+      "signal_price": 85.38,
+      "meta": {
+        "target_w": 0.25,
+        "dd_mult": 1.0,
+        "regime": "Sideways",
+        "window_start_ts": 1771228800,
+        "window_end_ts": 1771232400,
+        "deadband_pct": 0.05,
+        "drift": 0.2499995856706453
+      }
+    }
+  ],
+  "notes": "regime=Sideways selected=['SOL/USDT'] orders=1"
+}

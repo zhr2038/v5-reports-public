@@ -1,0 +1,32 @@
+{
+  "ts": 1771229401.7097282,
+  "ttl_sec": 3600,
+  "symbols": [
+    "ETH/USDT",
+    "BTC/USDT",
+    "ZAMA/USDT",
+    "DOGE/USDT",
+    "SOL/USDT",
+    "XRP/USDT",
+    "SPACE/USDT",
+    "PEPE/USDT",
+    "PI/USDT",
+    "ZEC/USDT",
+    "XAUT/USDT",
+    "SUI/USDT",
+    "MERL/USDT",
+    "HYPE/USDT",
+    "OKB/USDT",
+    "TRUMP/USDT",
+    "BNB/USDT",
+    "ADA/USDT",
+    "IP/USDT",
+    "TRX/USDT",
+    "WLFI/USDT",
+    "KITE/USDT",
+    "PUMP/USDT",
+    "LUNA/USDT",
+    "LTC/USDT",
+    "FIL/USDT"
+  ]
+}

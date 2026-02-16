@@ -1,0 +1,105 @@
+{
+  "schema_version": 1,
+  "ts_ms": 1771232440006,
+  "ok": true,
+  "reason": null,
+  "window": {
+    "begin_ts_ms": 1771231745457,
+    "end_ts_ms": 1771231745457
+  },
+  "baseline": {
+    "ts_ms": 1771232141943,
+    "last_bill_id": "3312807108571291649",
+    "last_bill_ts_ms": 1771231745457,
+    "balances": {
+      "USDT": "112.83904019274823",
+      "ETH": "0.0000018432",
+      "AAVE": "0.000000485",
+      "BNB": "0.0000001",
+      "SOL": "0.0000005476",
+      "BTC": "0.000000000222",
+      "DOT": "0.000000742",
+      "DOGE": "0.0000009552",
+      "TRX": "0.0000002058",
+      "USDG": "0.000000009298"
+    }
+  },
+  "current": {
+    "ts_ms": 1771232440006,
+    "last_bill_id": "3312807108571291649",
+    "last_bill_ts_ms": 1771231745457,
+    "balances": {
+      "USDT": "112.83904019274823",
+      "ETH": "0.0000018432",
+      "AAVE": "0.000000485",
+      "BNB": "0.0000001",
+      "SOL": "0.0000005476",
+      "BTC": "0.000000000222",
+      "DOT": "0.000000742",
+      "DOGE": "0.0000009552",
+      "TRX": "0.0000002058",
+      "USDG": "0.000000009298"
+    }
+  },
+  "bills_aggregate": {
+    "count": 0,
+    "sum_bal_chg": {}
+  },
+  "diffs": {
+    "AAVE": {
+      "expected": "4.85E-7",
+      "actual": "4.85E-7",
+      "delta": "0E-9"
+    },
+    "BNB": {
+      "expected": "1E-7",
+      "actual": "1E-7",
+      "delta": "0E-7"
+    },
+    "BTC": {
+      "expected": "2.22E-10",
+      "actual": "2.22E-10",
+      "delta": "0E-12"
+    },
+    "DOGE": {
+      "expected": "9.552E-7",
+      "actual": "9.552E-7",
+      "delta": "0E-10"
+    },
+    "DOT": {
+      "expected": "7.42E-7",
+      "actual": "7.42E-7",
+      "delta": "0E-9"
+    },
+    "ETH": {
+      "expected": "0.0000018432",
+      "actual": "0.0000018432",
+      "delta": "0E-10"
+    },
+    "SOL": {
+      "expected": "5.476E-7",
+      "actual": "5.476E-7",
+      "delta": "0E-10"
+    },
+    "TRX": {
+      "expected": "2.058E-7",
+      "actual": "2.058E-7",
+      "delta": "0E-10"
+    },
+    "USDG": {
+      "expected": "9.298E-9",
+      "actual": "9.298E-9",
+      "delta": "0E-12"
+    },
+    "USDT": {
+      "expected": "112.83904019274823",
+      "actual": "112.83904019274823",
+      "delta": "0E-14"
+    }
+  },
+  "error": {
+    "http_status": 200,
+    "okx_code": "0",
+    "okx_msg": ""
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "target_weights": {
+    "SOL/USDT": 0.25
+  },
+  "selected": [
+    "SOL/USDT"
+  ],
+  "volatilities": {
+    "SOL/USDT": 0.010628421287354166
+  },
+  "notes": ""
+}
