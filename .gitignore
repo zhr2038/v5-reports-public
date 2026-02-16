@@ -1,0 +1,9 @@
+# never publish secrets / databases
+*.sqlite
+*.sqlite3
+*.db
+reconcile_status.json
+kill_switch.json
+trades.csv
+*.log
+.env
