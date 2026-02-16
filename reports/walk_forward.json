@@ -1,0 +1,189 @@
+{
+  "schema_version": 2,
+  "cost_assumption_meta": {
+    "mode": "calibrated",
+    "fee_quantile": "p75",
+    "slippage_quantile": "p90",
+    "min_fills_global": 2,
+    "min_fills_bucket": 1,
+    "max_stats_age_days": 7,
+    "cost_stats_dir": "reports/cost_stats"
+  },
+  "cost_assumption_aggregate": {
+    "fallback_level_counts": {}
+  },
+  "folds": [
+    {
+      "train_range": [
+        0,
+        0
+      ],
+      "test_range": [
+        0,
+        720
+      ],
+      "result": {
+        "sharpe": 0.0,
+        "cagr": 0.0,
+        "max_dd": 0.0,
+        "profit_factor": 0.0,
+        "turnover": 0.0,
+        "cost_assumption": {
+          "mode": "calibrated",
+          "source_day": "20260216",
+          "fee_quantile": "p75",
+          "slippage_quantile": "p90",
+          "min_fills_global": 2,
+          "min_fills_bucket": 1,
+          "max_stats_age_days": 7,
+          "stats_path": "reports/cost_stats/daily_cost_stats_20260216.json",
+          "global_fills": 19,
+          "reason": null,
+          "fallback_level_counts": {}
+        }
+      },
+      "cost_assumption": {
+        "mode": "calibrated",
+        "source_day": "20260216",
+        "fee_quantile": "p75",
+        "slippage_quantile": "p90",
+        "min_fills_global": 2,
+        "min_fills_bucket": 1,
+        "max_stats_age_days": 7,
+        "stats_path": "reports/cost_stats/daily_cost_stats_20260216.json",
+        "global_fills": 19,
+        "reason": null,
+        "fallback_level_counts": {}
+      }
+    },
+    {
+      "train_range": [
+        0,
+        720
+      ],
+      "test_range": [
+        720,
+        1440
+      ],
+      "result": {
+        "sharpe": 0.0,
+        "cagr": 0.0,
+        "max_dd": 0.0,
+        "profit_factor": 0.0,
+        "turnover": 0.0,
+        "cost_assumption": {
+          "mode": "calibrated",
+          "source_day": "20260216",
+          "fee_quantile": "p75",
+          "slippage_quantile": "p90",
+          "min_fills_global": 2,
+          "min_fills_bucket": 1,
+          "max_stats_age_days": 7,
+          "stats_path": "reports/cost_stats/daily_cost_stats_20260216.json",
+          "global_fills": 19,
+          "reason": null,
+          "fallback_level_counts": {}
+        }
+      },
+      "cost_assumption": {
+        "mode": "calibrated",
+        "source_day": "20260216",
+        "fee_quantile": "p75",
+        "slippage_quantile": "p90",
+        "min_fills_global": 2,
+        "min_fills_bucket": 1,
+        "max_stats_age_days": 7,
+        "stats_path": "reports/cost_stats/daily_cost_stats_20260216.json",
+        "global_fills": 19,
+        "reason": null,
+        "fallback_level_counts": {}
+      }
+    },
+    {
+      "train_range": [
+        0,
+        1440
+      ],
+      "test_range": [
+        1440,
+        2160
+      ],
+      "result": {
+        "sharpe": 0.0,
+        "cagr": 0.0,
+        "max_dd": 0.0,
+        "profit_factor": 0.0,
+        "turnover": 0.0,
+        "cost_assumption": {
+          "mode": "calibrated",
+          "source_day": "20260216",
+          "fee_quantile": "p75",
+          "slippage_quantile": "p90",
+          "min_fills_global": 2,
+          "min_fills_bucket": 1,
+          "max_stats_age_days": 7,
+          "stats_path": "reports/cost_stats/daily_cost_stats_20260216.json",
+          "global_fills": 19,
+          "reason": null,
+          "fallback_level_counts": {}
+        }
+      },
+      "cost_assumption": {
+        "mode": "calibrated",
+        "source_day": "20260216",
+        "fee_quantile": "p75",
+        "slippage_quantile": "p90",
+        "min_fills_global": 2,
+        "min_fills_bucket": 1,
+        "max_stats_age_days": 7,
+        "stats_path": "reports/cost_stats/daily_cost_stats_20260216.json",
+        "global_fills": 19,
+        "reason": null,
+        "fallback_level_counts": {}
+      }
+    },
+    {
+      "train_range": [
+        0,
+        2160
+      ],
+      "test_range": [
+        2160,
+        2880
+      ],
+      "result": {
+        "sharpe": 0.0,
+        "cagr": 0.0,
+        "max_dd": 0.0,
+        "profit_factor": 0.0,
+        "turnover": 0.0,
+        "cost_assumption": {
+          "mode": "calibrated",
+          "source_day": "20260216",
+          "fee_quantile": "p75",
+          "slippage_quantile": "p90",
+          "min_fills_global": 2,
+          "min_fills_bucket": 1,
+          "max_stats_age_days": 7,
+          "stats_path": "reports/cost_stats/daily_cost_stats_20260216.json",
+          "global_fills": 19,
+          "reason": null,
+          "fallback_level_counts": {}
+        }
+      },
+      "cost_assumption": {
+        "mode": "calibrated",
+        "source_day": "20260216",
+        "fee_quantile": "p75",
+        "slippage_quantile": "p90",
+        "min_fills_global": 2,
+        "min_fills_bucket": 1,
+        "max_stats_age_days": 7,
+        "stats_path": "reports/cost_stats/daily_cost_stats_20260216.json",
+        "global_fills": 19,
+        "reason": null,
+        "fallback_level_counts": {}
+      }
+    }
+  ]
+}
