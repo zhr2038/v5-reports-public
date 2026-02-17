@@ -1,19 +1,19 @@
 {
   "enabled": false,
-  "ts_ms": 1771231782115,
+  "ts_ms": 1771233007757,
   "trigger": "reconcile_hard_fail",
   "reason": "base_mismatch",
   "consecutive_hard": 3,
   "consecutive_soft": 0,
-  "last_reconcile_ts_ms": 1771231782111,
+  "last_reconcile_ts_ms": 1771233007756,
   "details": {
-    "max_abs_usdt_delta": 34.95270203824823,
-    "max_abs_base_delta": 0.007600063000000001,
+    "max_abs_usdt_delta": 28.241733881448226,
+    "max_abs_base_delta": 0.33041347047499997,
     "reconcile_status_path": "reports/reconcile_status.json",
     "okx_code": "0",
     "okx_msg": "",
     "http_status": 200,
     "consecutive_stale": 0,
-    "stale_age_ms": 4
+    "stale_age_ms": 1
   }
 }

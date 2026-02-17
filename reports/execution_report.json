@@ -1,23 +1,113 @@
 {
-  "timestamp": "2026-02-16T09:00:05.186885Z",
-  "dry_run": true,
+  "timestamp": "2026-02-17T02:33:57Z",
+  "dry_run": false,
   "orders": [
     {
+      "symbol": "ETH/USDT",
+      "side": "sell",
+      "intent": "CLOSE_LONG",
+      "notional_usdt": 0.00367110144,
+      "signal_price": 1991.7,
+      "meta": {
+        "reason": "regime_exit"
+      }
+    },
+    {
+      "symbol": "AAVE/USDT",
+      "side": "sell",
+      "intent": "CLOSE_LONG",
+      "notional_usdt": 0.0,
+      "signal_price": 0.0,
+      "meta": {
+        "reason": "regime_exit"
+      }
+    },
+    {
       "symbol": "SOL/USDT",
+      "side": "sell",
+      "intent": "CLOSE_LONG",
+      "notional_usdt": 0.0,
+      "signal_price": 0.0,
+      "meta": {
+        "reason": "regime_exit"
+      }
+    },
+    {
+      "symbol": "BNB/USDT",
+      "side": "sell",
+      "intent": "CLOSE_LONG",
+      "notional_usdt": 0.0,
+      "signal_price": 0.0,
+      "meta": {
+        "reason": "regime_exit"
+      }
+    },
+    {
+      "symbol": "BTC/USDT",
+      "side": "sell",
+      "intent": "CLOSE_LONG",
+      "notional_usdt": 0.0,
+      "signal_price": 0.0,
+      "meta": {
+        "reason": "regime_exit"
+      }
+    },
+    {
+      "symbol": "DOT/USDT",
+      "side": "sell",
+      "intent": "CLOSE_LONG",
+      "notional_usdt": 0.0,
+      "signal_price": 0.0,
+      "meta": {
+        "reason": "regime_exit"
+      }
+    },
+    {
+      "symbol": "DOGE/USDT",
+      "side": "sell",
+      "intent": "CLOSE_LONG",
+      "notional_usdt": 0.0,
+      "signal_price": 0.0,
+      "meta": {
+        "reason": "regime_exit"
+      }
+    },
+    {
+      "symbol": "TRX/USDT",
+      "side": "sell",
+      "intent": "CLOSE_LONG",
+      "notional_usdt": 0.0,
+      "signal_price": 0.0,
+      "meta": {
+        "reason": "regime_exit"
+      }
+    },
+    {
+      "symbol": "USDG/USDT",
+      "side": "sell",
+      "intent": "CLOSE_LONG",
+      "notional_usdt": 0.0,
+      "signal_price": 0.0,
+      "meta": {
+        "reason": "regime_exit"
+      }
+    },
+    {
+      "symbol": "ETH/USDT",
       "side": "buy",
       "intent": "REBALANCE",
-      "notional_usdt": 28.210702109130956,
-      "signal_price": 85.38,
+      "notional_usdt": 2.5,
+      "signal_price": 1991.7,
       "meta": {
-        "target_w": 0.25,
-        "dd_mult": 1.0,
-        "regime": "Sideways",
-        "window_start_ts": 1771228800,
-        "window_end_ts": 1771232400,
-        "deadband_pct": 0.05,
-        "drift": 0.2499995856706453
+        "target_w": 0.125,
+        "dd_mult": 0.5,
+        "regime": "Risk-Off",
+        "window_start_ts": 1771290000,
+        "window_end_ts": 1771293600,
+        "deadband_pct": 0.07,
+        "drift": 0.124816444928
       }
     }
   ],
-  "notes": "regime=Sideways selected=['SOL/USDT'] orders=1"
+  "notes": "regime=Risk-Off selected=['ETH/USDT'] orders=10"
 }

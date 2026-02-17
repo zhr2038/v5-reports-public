@@ -1,0 +1,74 @@
+{
+  "run_id": "20260217_02",
+  "now_ts": 1771266836,
+  "window_start_ts": 1771290000,
+  "window_end_ts": 1771293600,
+  "regime": "Risk-Off",
+  "regime_multiplier": 0.3,
+  "counts": {
+    "universe": 1,
+    "scored": 1,
+    "selected": 1,
+    "targets_pre_risk": 1,
+    "orders_exit": 9,
+    "orders_rebalance": 1
+  },
+  "top_scores": [
+    {
+      "symbol": "ETH/USDT",
+      "score": 0.0
+    }
+  ],
+  "targets_pre_risk": {
+    "ETH/USDT": 0.25
+  },
+  "targets_post_risk": {
+    "ETH/USDT": 0.125
+  },
+  "portfolio_debug": {},
+  "rebalance_deadband_pct": null,
+  "rebalance_skipped_deadband_count": 0,
+  "rebalance_skipped_deadband_by_symbol": {},
+  "rebalance_drift_by_symbol": {},
+  "router_decisions": [
+    {
+      "symbol": "ETH/USDT",
+      "action": "create",
+      "reason": "ok",
+      "side": "buy",
+      "notional": 2.5,
+      "cash_after": 17.5
+    }
+  ],
+  "rejects": {
+    "no_closed_bar": 0,
+    "min_notional": 0,
+    "spread_gate": 0,
+    "dd_throttle": 1,
+    "cap_clipped": 0,
+    "insufficient_cash": 0,
+    "deadband_skip": 0,
+    "provider_error": 0
+  },
+  "budget": {
+    "ymd_utc": "20260217",
+    "avg_equity_est": 90.70357848567363,
+    "turnover_used": 162.0794460456,
+    "turnover_budget_per_day": null,
+    "cost_used_usdt": 0.1782873906502,
+    "cost_used_bps": 19.656048154523468,
+    "cost_budget_bps_per_day": null,
+    "exceeded": false,
+    "reason": null,
+    "fills_count_today": 5,
+    "median_notional_usdt_today": 30.514064136,
+    "small_trade_ratio_today": 0.0,
+    "small_trade_notional_cutoff": 2.0
+  },
+  "budget_action": {
+    "enabled": false
+  },
+  "notes": [
+    "2026-02-17T02:33:56.347571: DD multiplier: 0.5 (drawdown: 92.48%)"
+  ]
+}
